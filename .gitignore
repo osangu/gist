@@ -1,0 +1,8 @@
+venv/
+.idea/
+.terraform/
+
+.DS_Store
+.__py_cache__
+
+
