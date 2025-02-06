@@ -1,7 +1,7 @@
 from pymongo.database import Collection
 
-from ..entities.user import User
-from ..client import get_collection
+from python.custom_odm.entities import User
+from python.custom_odm.client import get_collection
 
 
 class UserRepository:
