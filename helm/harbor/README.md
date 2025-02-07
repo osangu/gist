@@ -1,4 +1,4 @@
-## Preparing
+## Setting
 
 ### Minikube Initialize
 
@@ -13,9 +13,9 @@ minikube addons enable ingress -p hb
 curl -O "https://raw.githubusercontent.com/goharbor/harbor-helm/main/values.yaml"
 
 #  Download Entire Chart  
-# helm repo add harbor https://helm.goharbor.io
-# tar zxvf harbor-1.6.0.tgz
-# helm fetch harbor/harbor
+#  helm repo add harbor https://helm.goharbor.io
+#  tar zxvf harbor-1.6.0.tgz
+#  helm fetch harbor/harbor
 ```
 
 ## Installation
